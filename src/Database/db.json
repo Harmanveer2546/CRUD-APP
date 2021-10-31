@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "name": "MS Dhon",
+      "name": "MS Dhoni",
       "username": "dhoni",
       "email": "msdhoni@gmail.com",
       "phone": "4563214530",
@@ -22,10 +22,10 @@
       "id": 5
     },
     {
-      "name": "Shikhar Dhawan",
-      "username": "dhawansikhar",
-      "email": "dhawan@gmail.com",
-      "phone": "4569874563",
+      "name": "virat kohli",
+      "username": "cheeku",
+      "email": "virat18@gmail.com",
+      "phone": "7847420473",
       "id": 6
     }
   ]

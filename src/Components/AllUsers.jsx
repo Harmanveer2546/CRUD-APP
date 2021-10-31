@@ -76,14 +76,14 @@ return (
 
         
             <TableRow className={classes.row}>
-            <TableCell>{user.id}</TableCell>
+            <TableCell>{user._id}</TableCell>
             <TableCell>{user.name}</TableCell> 
            <TableCell>{user.username}</TableCell>
            <TableCell>{user.email}</TableCell>
            <TableCell>{user.phone}</TableCell>
            <TableCell>
-               <Button color="primary" variant="contained" style={{marginRight:10}} component={Link} to={`/edit/${user.id}`} >Edit</Button>
-               <Button color="secondary" variant="contained" onClick={() => deleteUser(user.id)}>Delete</Button>
+               <Button color="primary" variant="contained" style={{marginRight:10}} component={Link} to={`/edit/${user._id}`} >Edit</Button>
+               <Button color="secondary" variant="contained" onClick={() => DeleteUser(user._id)}>Delete</Button>
            </TableCell>
           </TableRow>
 
