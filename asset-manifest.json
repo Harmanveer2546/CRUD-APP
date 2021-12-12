@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CRUD-APP/static/css/main.a617e044.chunk.css",
+    "main.js": "/CRUD-APP/static/js/main.911fe458.chunk.js",
+    "main.js.map": "/CRUD-APP/static/js/main.911fe458.chunk.js.map",
+    "runtime-main.js": "/CRUD-APP/static/js/runtime-main.9012e8e5.js",
+    "runtime-main.js.map": "/CRUD-APP/static/js/runtime-main.9012e8e5.js.map",
+    "static/js/2.eb39000c.chunk.js": "/CRUD-APP/static/js/2.eb39000c.chunk.js",
+    "static/js/2.eb39000c.chunk.js.map": "/CRUD-APP/static/js/2.eb39000c.chunk.js.map",
+    "static/js/3.38f8014d.chunk.js": "/CRUD-APP/static/js/3.38f8014d.chunk.js",
+    "static/js/3.38f8014d.chunk.js.map": "/CRUD-APP/static/js/3.38f8014d.chunk.js.map",
+    "index.html": "/CRUD-APP/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/CRUD-APP/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.eb39000c.chunk.js.LICENSE.txt": "/CRUD-APP/static/js/2.eb39000c.chunk.js.LICENSE.txt",
+    "static/media/NotFound.b684e5be.jpg": "/CRUD-APP/static/media/NotFound.b684e5be.jpg",
+    "static/media/crud.31c4b0ca.jpg": "/CRUD-APP/static/media/crud.31c4b0ca.jpg",
+    "static/media/logo.6ce24c58.svg": "/CRUD-APP/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9012e8e5.js",
+    "static/js/2.eb39000c.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.911fe458.chunk.js"
+  ]
+}
