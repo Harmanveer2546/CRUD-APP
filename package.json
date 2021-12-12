@@ -1,5 +1,6 @@
 {
   "name": "crud-operations",
+  "homepage": "https://harpreetsingh22.github.io/CRUD-APP",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "json-server": "json-server --watch src/Database/db.json --host 127.0.0.1 --port 3002",
     "build": "react-scripts build",
     "test": "react-scripts test",

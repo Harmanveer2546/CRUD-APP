@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'deploy'
+1 verbose cli ]
+2 info using npm@6.14.12
+3 info using node@v14.16.1
+4 verbose run-script [ 'predeploy', 'deploy', 'postdeploy' ]
+5 info lifecycle crud-operations@0.1.0~predeploy: crud-operations@0.1.0
+6 verbose lifecycle crud-operations@0.1.0~predeploy: unsafe-perm in lifecycle true
+7 verbose lifecycle crud-operations@0.1.0~predeploy: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Gurpreet Kaur\Desktop\CRUD\crud-operations\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Gurpreet Kaur\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Gurpreet Kaur\AppData\Local\Programs\Python\Python38-32\;C:\Users\Gurpreet Kaur\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Gurpreet Kaur\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;;C:\Users\Gurpreet Kaur\AppData\Roaming\npm;H:\Microsoft VS Code\bin
+8 verbose lifecycle crud-operations@0.1.0~predeploy: CWD: C:\Users\Gurpreet Kaur\Desktop\CRUD\crud-operations
+9 silly lifecycle crud-operations@0.1.0~predeploy: Args: [ '/d /s /c', 'npm run build' ]
+10 silly lifecycle crud-operations@0.1.0~predeploy: Returned: code: 0  signal: null
+11 info lifecycle crud-operations@0.1.0~deploy: crud-operations@0.1.0
+12 verbose lifecycle crud-operations@0.1.0~deploy: unsafe-perm in lifecycle true
+13 verbose lifecycle crud-operations@0.1.0~deploy: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Gurpreet Kaur\Desktop\CRUD\crud-operations\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Gurpreet Kaur\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Gurpreet Kaur\AppData\Local\Programs\Python\Python38-32\;C:\Users\Gurpreet Kaur\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Gurpreet Kaur\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;;C:\Users\Gurpreet Kaur\AppData\Roaming\npm;H:\Microsoft VS Code\bin
+14 verbose lifecycle crud-operations@0.1.0~deploy: CWD: C:\Users\Gurpreet Kaur\Desktop\CRUD\crud-operations
+15 silly lifecycle crud-operations@0.1.0~deploy: Args: [ '/d /s /c', 'gh-pages -d build' ]
+16 silly lifecycle crud-operations@0.1.0~deploy: Returned: code: 1  signal: null
+17 info lifecycle crud-operations@0.1.0~deploy: Failed to exec deploy script
+18 verbose stack Error: crud-operations@0.1.0 deploy: `gh-pages -d build`
+18 verbose stack Exit status 1
+18 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\index.js:332:16)
+18 verbose stack     at EventEmitter.emit (events.js:315:20)
+18 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+18 verbose stack     at ChildProcess.emit (events.js:315:20)
+18 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+18 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+19 verbose pkgid crud-operations@0.1.0
+20 verbose cwd C:\Users\Gurpreet Kaur\Desktop\CRUD\crud-operations
+21 verbose Windows_NT 10.0.19042
+22 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "deploy"
+23 verbose node v14.16.1
+24 verbose npm  v6.14.12
+25 error code ELIFECYCLE
+26 error errno 1
+27 error crud-operations@0.1.0 deploy: `gh-pages -d build`
+27 error Exit status 1
+28 error Failed at the crud-operations@0.1.0 deploy script.
+28 error This is probably not a problem with npm. There is likely additional logging output above.
+29 verbose exit [ 1, true ]
