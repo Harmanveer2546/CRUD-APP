@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
      <Navbar/>
      <Switch>
-     <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}/>
+     <Route  path={process.env.PUBLIC_URL + '/'} component={Home}/>
      <Route exact path="/all" component={AllUsers}/>
      <Route exact path="/add" component={AddUsers}/>
      <Route exact path="/edit/:id" component={EditUser} />
