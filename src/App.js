@@ -5,13 +5,13 @@ import AllUsers from './Components/AllUsers';
 import AddUsers from './Components/AddUsers';
 import Home from './Components/Home';
 import EditUser from './Components/EditUser';
-import {BrowserRouter,Route,Switch}  from 'react-router-dom'  ;
+import {HashRouter,Route,Switch}  from 'react-router-dom'  ;
 import Notfound from './Components/Notfound';
 
 function App() {
   return (
     
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
      <Navbar/>
      <Switch>
      <Route  path={process.env.PUBLIC_URL + '/'} component={Home}/>
@@ -21,7 +21,7 @@ function App() {
      <Route component={Notfound} />
      
      </Switch>
-     </BrowserRouter>
+     </HashRouter>
     
   )
 }
